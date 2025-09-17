@@ -1,5 +1,5 @@
 ---
-title: "Load the bird image & change the screen text"
+title: "Cargar La Imagen del Pájaro y Cambiar el Texto en la Pantalla"
 date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 2
