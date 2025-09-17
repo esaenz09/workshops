@@ -1,147 +1,150 @@
 ---
-title: "Aplicando formatos al texto"
+title: "Formatting"
 date: 2020-07-29T14:08:32-07:00
 draft: false
 weight: 5
-hidden: true
 ---
-Al crear o editar talleres, los redactarás usando sintaxis Markdown estándar, además de unos pocos elementos adicionales. Esta página explica qué sintaxis usar para usar formatos específicos en un taller.
+Al crear o modificar talleres, los redactarás usando la sintaxis estándar de Markdown, además de algunas sintaxis personalizadas adicionales. Esta página explica qué sintaxis usar para añadir formatos específicos a un taller.
 
-## Referencia de formateo
+## Referencia de formato
 
-- [Hoja de trucos para Markdown Estándar](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) (en inglés)
-- [Opciones de formato personalizado mediante “shortcodes”](/guidelines/shortcodes/) (en inglés)
+- [Hoja de referencia de Markdown estándar](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Opciones de formato personalizado usando shortcodes](/guidelines/shortcodes/)
 
 ## Ejemplos de formato
 
-Este tema incluye una serie de opciones para personalizar el aspecto de tu página. A continuación, encontrarás varios ejemplos de uso de los mismos, los cuales incluyen la sintaxis que debe usar seguido de lo que se mostrará en la página al usar aquella sintaxis.
+Este tema incluye varias opciones para personalizar la apariencia de su sitio. A continuación puede encontrar varios ejemplos de uso, que incluyen la sintaxis a utilizar seguida de lo que realmente se muestra en una página cuando emplea esa sintaxis.
 
 ### Alertas
 
 #### Información
 
-    {{</* alert theme="info" */>}}**Esta** es una alerta de información{{</* /alert */>}}
+    {{</* alert theme="info" */>}}**This** is an info {{</* /alert */>}}
 
-{{< alert theme="info">}}**Esta** es una alerta de información{{< /alert >}}
+{{< alert theme="info">}}**Esto** es una información{{< /alert >}}
 
 #### Éxito
 
-    {{</* alert theme="success" */>}}**Lo lograste!** es un ejemplo de un éxito{{</* /alert */>}}
+    {{</* alert theme="success" */>}}**Yeahhh !** is a success{{</* /alert */>}}
 
-{{< alert theme="success" >}}**Lo lograste!** es un ejemplo de un éxito{{< /alert >}}
+{{< alert theme="success" >}}**Yeahhh !** es un éxito{{< /alert >}}
 
 #### Advertencia
 
-    {{</* alert theme="warning" */>}}***Ten cuidado** es una advertencia{{</* /alert */>}}
+    {{</* alert theme="warning" */>}}**Be careful** is a warning{{</* /alert */>}}
 
-{{< alert theme="warning" >}}**Ten cuidado** es una advertencia{{< /alert >}}
+{{< alert theme="warning" >}}**Cuidado** es una advertencia{{< /alert >}}
 
 #### Peligro
 
-    {{</* alert theme="danger" */>}}**Cuidado** es un ejemplo de un peligro{{</* /alert */>}}
+    {{</* alert theme="danger" */>}}**Beware !** is a danger{{</* /alert */>}}
 
-{{< alert theme="danger" >}}**Cuidado** es un ejemplo de un peligro{{< /alert >}}
+{{< alert theme="danger" >}}**¡Cuidado!** es una alerta de peligro{{< /alert >}}
 
 ### Botones
 
-    {{</* button href="https://nuevofoundation.org" */>}} ir a Nuevo Foundation  {{</* /button */>}}
+    {{</* button href="https://nuevofoundation.org" */>}} go to Nuevo Foundation {{</* /button */>}}
 
-{{<button href="https://google.com" >}} ir a Nuevo Foundation  {{< /button >}}
+{{<button href="https://google.com" >}} ir a Nuevo Foundation {{< /button >}}
 
-#### Botón de Éxito
+#### Botón de éxito
 
-    {{</* button href="https://nuevofoundation.org" theme="success" */>}} Éxito {{</* /button */>}}
+    {{</* button href="https://nuevofoundation.org" theme="success" */>}} Success {{</* /button */>}}
 
 {{<button href="https://google.com" theme="success">}} Éxito {{< /button >}}
 
-#### Botón de Información
+#### Botón de información
 
-    {{</* button href="https://nuevofoundation.org" theme="info" */>}} Información {{</* /button */>}}
+    {{</* button href="https://nuevofoundation.org" theme="info" */>}} Info {{</* /button */>}}
 
 {{<button href="https://google.com" theme="info">}} Información {{< /button >}}
 
-#### Botón de Advertencia
+#### Botón de advertencia
 
-    {{</* button href="https://nuevofoundation.org" theme="warning" */>}} Advertencia {{</* /button */>}}
+    {{</* button href="https://nuevofoundation.org" theme="warning" */>}} Warning {{</* /button */>}}
 
 {{<button href="https://google.com" theme="warning">}} Advertencia {{< /button >}}
 
-#### Botón de Peligro
+#### Botón de peligro
 
-    {{</* button href="https://nuevofoundation.org" theme="danger" */>}} ¡Peligro! {{</* /button */>}}
+    {{</* button href="https://nuevofoundation.org" theme="danger" */>}} Danger ! {{</* /button */>}}
 
 {{<button href="https://google.com" theme="danger">}} ¡Peligro! {{< /button >}}
 
-#### Botón Predeterminado
+#### Botón por defecto
 
-    {{</* button href="https://nuevofoundation.org" theme="default" */>}} Predeterminado {{</* /button */>}}
+    {{</* button href="https://nuevofoundation.org" theme="default" */>}} Danger ! {{</* /button */>}}
 
-{{<button href="https://google.com" theme="default">}} Predeterminado {{< /button >}}
+{{<button href="https://google.com" theme="default">}} ¡Peligro! {{< /button >}}
 
-### Expand
+### Expandir
 
-    {{</* expand "¡Haz click aquí para expandir!" */>}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    {{</*expand "Click here to expand!"*/>}}
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.{{</* /expand */>}}
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    {{</* /expand*/>}}
 
-{{< expand "¡Haz click aquí para expandir!" >}}Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+{{< expand "¡Haga clic aquí para expandir!" >}}
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.{{< /expand >}}
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{{< /expand >}}
 
 ### Avisos
 
-#### Aviso de Apunte
+#### Aviso (note)
 
     {{</* notice note */>}}
-    Aviso de apunte
+    A notice disclaimer
     {{</* /notice */>}}
 
 {{< notice note >}}
-Aviso de apunte
+Un aviso
 {{< /notice >}}
 
-#### Aviso de Información
+#### Aviso informativo
 
     {{</* notice info */>}}
-    Aviso de información
+    An information disclaimer
     {{</* /notice */>}}
 
 {{< notice info >}}
-Aviso de información
+Un aviso informativo
 {{< /notice >}}
 
-#### Aviso de Artimaña
+#### Consejo (tip)
 
     {{</* notice tip */>}}
-    Aviso de artimaña
+    A tip disclaimer
     {{</* /notice */>}}
 
 {{< notice tip >}}
-Aviso de artimaña
+Un consejo
 {{< /notice >}}
 
-#### Aviso de Advertencia
+#### Aviso de advertencia
 
     {{</* notice warning */>}}
-    Aviso de advertencia
+    An warning disclaimer
     {{</* /notice */>}}
 
 {{< notice warning >}}
-Aviso de advertencia
+Una advertencia
 {{< /notice >}}
 
-### Ejemplos de Iconos Disponibles
+### Ejemplos de iconos disponibles
 
 [Lista completa aquí](/guidelines/shortcodes/icon)
 
-|Ícono|Nombre de ícono|Ejemplo de uso|
-|-----|---------------|--------------|
+|Icono|Icon Name|Ejemplo de uso|
+|----|---------|-------------|
 |{{< icon name="asterisk" size="large" >}}|asterisk|<code>{{&lt;icon name=&quot;asterisk&quot; size=&quot;large&quot;&gt;}}</code>|
 |{{< icon name="plus" size="large" >}}|plus|<code>{{&lt;icon name=&quot;plus&quot; size=&quot;large&quot;&gt;}}</code>|
 |{{< icon name="euro" size="large" >}}|euro|<code>{{&lt;icon name=&quot;euro&quot; size=&quot;large&quot;&gt;}}</code>|

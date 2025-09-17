@@ -1,14 +1,25 @@
 ---
-title: "Directrices para colaboradores del taller"
-date: 2020-07-30T14:08:32-07:00
+title: "Workshop Contributor Guidelines"
+description: "Damos la bienvenida a las contribuciones. Las mejores maneras de contribuir incluyen probar actividades, reportar errores, crear y agregar nuevos talleres."
+date: 2019-07-22T14:08:32-07:00
 draft: false
-hidden: true
+hidden: false
 ---
 
-¡Bienvenido! Estas pautas son para crear o editar un Taller de Nuevo Foundation.
+Damos la bienvenida a las contribuciones. Las mejores maneras de contribuir incluyen probar actividades, reportar errores, crear y agregar nuevos talleres.
 
-* [Aplicando formatos al texto](formatting/)
+## Empieza aquí
+¿Solo quieres reportar una falta de ortografía o un bug? Puedes <a target="_blank" href="https://github.com/NuevoFoundation/workshops/issues">abrirlo como un issue en GitHub</a>.
 
-## Próximamente
+¿Quieres contribuir más? Echa un vistazo a nuestros <a target="_blank" href="https://github.com/NuevoFoundation/workshops/labels/help%20wanted">issues etiquetados como "help wanted"</a> para encontrar áreas en las que contribuir. Luego, para empezar a contribuir, sigue estas guías:
+  - [Cómo se construye el sitio](site-architecture)
+  - [Primeros pasos](getting-started)
 
-La orientación del taller es un trabajo en progreso. Mientras tanto, visite el readme.md del proyecto para obtener instrucciones de configuración.
+## Para creadores de contenido
+¿Interesado en crear o modificar talleres? Sigue las guías "Empieza aquí" arriba y, a continuación, las siguientes:
+  - [Formato](formatting)
+  - [Directrices para nuevos talleres](new-workshops)
+
+## Para desarrolladores web
+¿Interesado en mejorar este sitio web? Sigue las guías "Empieza aquí" arriba y, a continuación, las siguientes:
+  - [Directrices para desarrolladores web](web-developer)
