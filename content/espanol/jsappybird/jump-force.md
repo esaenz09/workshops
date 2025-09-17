@@ -1,5 +1,5 @@
 ---
-title: "Make the bird jump with force & falling with rotation"
+title: "Haz Que el Pájaro Salte con Fuerza y Caiga con Rotación"
 date: 2020-07-29T13:24:17-07:00
 draft: false
 weight: 4
@@ -58,5 +58,3 @@ En tu consola deberías ver un Jsappy bird rotando con un ángulo después de pr
 ![alt text](../img/rotate_output.png "bird rotating")
 
 {{% /notice %}}
-
-; manténlo claro para principiantes.
