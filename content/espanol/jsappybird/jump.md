@@ -1,5 +1,5 @@
 ---
-title: "Make the bird jump & add gravity"
+title: "Haz Que el Pájaro Salte y Añade Gravedad"
 date: 2020-02-10T13:24:17-07:00
 draft: false
 weight: 3
@@ -32,7 +32,3 @@ En la ventana de Replit de abajo, iniciamos el código con la línea `bird.body.
 En la consola deberías ver un JSappy bird saltando con gravedad después de presionar **run**:
 
 ![alt text](../img/jump_output.png "bird jumping with gravity")
-
-; keeping it clear for beginners. 
-        Preserve technical terms, code syntax, and formatting. Only translate comments that explain concepts.
-        Adapt cultural references appropriately. Don't translate the header key title; don't translate the image html
