@@ -1,5 +1,5 @@
 ---
-title: "Add sound while the bird is jumping & bonus"
+title: "Agrega Sonido Mientras el Pájaro Salta y Bonus"
 date: 2020-07-29T13:24:17-07:00
 draft: false
 weight: 5
